@@ -39,7 +39,9 @@ Add the Private Key and API URL from Alchemy
 
 This file lets you convert the datatype from string to bytes32
 Run:
+
     node createBytes.js Ana
+    
 Output:
 0x416e610000000000000000000000000000000000000000000000000000000000
 
@@ -48,6 +50,7 @@ Replace "Ana" with the string you want to give, it'll return the Bytes32 format.
 ### 5. Adding Frontend
 
 Run:
+
     npx create-react-app frontend
 
 Delete the unnecessary files from React App. Include logos, reportvitals.js, index.html, favicon.ico, robot.txt, etc.
